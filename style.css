@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    text-transform: uppercase;
+    font-family: arial;
+    font-weight: 700;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.colorBtn{
+    padding: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: arial;
+    background: #fb5620;
+    color: #fff;
+    border-radius: 5px;
+    text-shadow: 0px 0px 5px #fff;
+    text-transform: uppercase;
+}
+
+.colorBtn:hover{
+    text-shadow: 0px 0px 25px #fff;
+}
